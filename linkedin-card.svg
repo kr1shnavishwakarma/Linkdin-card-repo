@@ -1,0 +1,76 @@
+<svg width="480" height="200" viewBox="0 0 480 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a66c2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#004182;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f3f6f9;stop-opacity:1" />
+    </linearGradient>
+    <clipPath id="avatarClip">
+      <circle cx="72" cy="90" r="38" />
+    </clipPath>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#0a66c2" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- Card background -->
+  <rect width="480" height="200" rx="16" ry="16" fill="url(#cardGrad)" filter="url(#shadow)" />
+
+  <!-- Top banner -->
+  <rect width="480" height="58" rx="16" ry="16" fill="url(#bgGrad)" />
+  <rect y="42" width="480" height="16" fill="url(#bgGrad)" />
+
+  <!-- LinkedIn logo top-right -->
+  <rect x="436" y="10" width="32" height="32" rx="6" fill="white" opacity="0.95"/>
+  <text x="452" y="31" font-family="Arial Black, Arial, sans-serif" font-size="18" font-weight="900" fill="#0a66c2" text-anchor="middle">in</text>
+
+  <!-- Avatar circle background -->
+  <circle cx="72" cy="90" r="42" fill="white" />
+  <!-- Avatar placeholder -->
+  <circle cx="72" cy="82" r="22" fill="#0a66c2" opacity="0.85"/>
+  <ellipse cx="72" cy="116" rx="30" ry="18" fill="#0a66c2" opacity="0.85"/>
+  <circle cx="72" cy="90" r="38" fill="none" stroke="#0a66c2" stroke-width="3"/>
+
+  <!-- Name -->
+  <text x="128" y="78" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#191919" letter-spacing="0.2">Your Name Here</text>
+
+  <!-- Headline -->
+  <text x="128" y="100" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#444" font-weight="400">Software Developer · Open Source Enthusiast</text>
+
+  <!-- Location -->
+  <text x="128" y="119" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#666">
+    📍 Nashik, Maharashtra, India
+  </text>
+
+  <!-- Divider -->
+  <line x1="24" y1="140" x2="456" y2="140" stroke="#e0e7ef" stroke-width="1"/>
+
+  <!-- Stats row -->
+  <!-- Connections -->
+  <text x="60" y="162" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#0a66c2" text-anchor="middle">500+</text>
+  <text x="60" y="178" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">Connections</text>
+
+  <!-- Vertical separator -->
+  <line x1="130" y1="150" x2="130" y2="184" stroke="#e0e7ef" stroke-width="1"/>
+
+  <!-- Skills -->
+  <text x="200" y="162" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#0a66c2" text-anchor="middle">15+</text>
+  <text x="200" y="178" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">Skills</text>
+
+  <!-- Vertical separator -->
+  <line x1="265" y1="150" x2="265" y2="184" stroke="#e0e7ef" stroke-width="1"/>
+
+  <!-- Experience -->
+  <text x="335" y="162" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#0a66c2" text-anchor="middle">3 yrs</text>
+  <text x="335" y="178" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">Experience</text>
+
+  <!-- Vertical separator -->
+  <line x1="400" y1="150" x2="400" y2="184" stroke="#e0e7ef" stroke-width="1"/>
+
+  <!-- Connect button -->
+  <rect x="414" y="152" width="52" height="26" rx="13" fill="#0a66c2"/>
+  <text x="440" y="169" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="white" text-anchor="middle">Connect</text>
+</svg>
